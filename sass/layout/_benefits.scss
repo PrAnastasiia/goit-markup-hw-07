@@ -44,7 +44,7 @@
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--titles-text-color);
+  color: $titleTextColor;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -52,4 +52,5 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: $primaryTextColor;
 }

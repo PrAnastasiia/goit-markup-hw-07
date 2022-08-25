@@ -32,7 +32,7 @@ footer {
 }
 
 .all-contacts__logo {
-  font-family: 'Raleway';
+  font-family: $primaryFontFamily;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -79,7 +79,7 @@ footer {
 
   &:hover,
   &:focus {
-    background: var(--accent-text-color);
+    background: $accentColor;
   }
 }
 
@@ -111,11 +111,11 @@ footer {
   border-radius: 4px;
   background: transparent;
   outline: none;
-  color: var(--main-text-color);
+  color: $primaryTextColor;
 }
 
 .subscription__btn {
-  background: var(--accent-text-color);
+  background: $accentColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -139,6 +139,6 @@ footer {
     margin-left: 10px;
   }
   &:hover {
-    background: #188ce8;
+    background: $hoverBtnColor;
   }
 }

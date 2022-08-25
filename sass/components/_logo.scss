@@ -1,5 +1,5 @@
 .header__logo {
-  font-family: 'Raleway';
+  font-family: $primaryFontFamily;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -10,10 +10,10 @@
 }
 
 .header__logo--blue {
-  font-family: 'Raleway';
+  font-family: $primaryFontFamily;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.9;
-  color: var(--accent-text-color);
+  color: $accentColor;
 }

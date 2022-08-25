@@ -3,6 +3,6 @@
 }
 
 .nav__link--active {
-  color: var(--accent-text-color);
+  color: $accentColor;
   position: relative;
 }

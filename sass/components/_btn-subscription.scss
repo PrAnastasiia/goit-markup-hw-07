@@ -1,5 +1,5 @@
 .subscription-btn {
-  background: var(--accent-text-color);
+  background: $accentColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -24,6 +24,6 @@
     margin-left: 10px;
   }
   &:hover {
-    background: var(--hover-btn-color);
+    background: $hoverBtnColor;
   }
 }

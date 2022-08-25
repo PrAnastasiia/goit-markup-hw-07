@@ -1,10 +1,11 @@
-body {
-  font-family: 'Roboto';
-  color: var(--main-text-color);
-}
-:root {
-  --titles-text-color: #212121;
-  --main-text-color: #757575;
-  --accent-text-color: #2196f3;
-  --hover-btn-color: #188ce8;
-}
+// accent color
+$accentColor: #2196f3;
+$hoverBtnColor: #188ce8;
+
+// text color
+$primaryTextColor: #757575;
+$titleTextColor: #212121;
+
+// FONT-FAMILY
+$mainFontFamily: 'Roboto';
+$primaryFontFamily: 'Raleway';

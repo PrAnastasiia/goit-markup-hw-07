@@ -1,6 +1,8 @@
+@import './utils/variables';
+@import './base/normalize.scss';
+@import './utils/basic';
 @import './base/reset';
 @import './base/common';
-@import './utils/variables';
 
 @import './components/container';
 @import './utils/hidden';
